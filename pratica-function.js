@@ -34,7 +34,7 @@ function toCelsius(temp){
 
 let temperatura = toCelsius(77);
 console.log("A temperatura atual é " + temperatura + "º graus Celsius.");
-*/
+
 
 
 function qualCarro(){
@@ -43,3 +43,21 @@ function qualCarro(){
 }
 
 console.log(qualCarro());
+*/
+
+
+function campeao(time){
+    time.titulos = 10;
+}
+
+let meutime = {titulos: 20};
+
+let timeA;
+let timeB;
+
+timeA = meutime.titulos;
+console.log(timeA);
+
+campeao(meutime);
+timeB = meutime.titulos;
+console.log(timeB);
