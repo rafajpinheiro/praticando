@@ -23,9 +23,23 @@ while (salario < 5000) {
 }
 */
 
+/*
 let contador = 0;
 
 while (contador <= 50) {
     console.log("repetição nº " + contador);
     contador++;
 }
+*/
+
+const cores = ['verde','amarelo', 'azul','branco','cinza'];
+
+let indice = 0;
+
+
+while (indice < cores.length) {
+    console.log(indice, cores[indice]);
+    indice++;
+}
+
+console.log(cores.length);
