@@ -34,7 +34,7 @@ while (contador <= 50) {
 
 const cores = ['verde','amarelo', 'azul','branco','cinza'];
 
-let indice = 0;
+let indice = 1;
 
 
 while (indice < cores.length) {
