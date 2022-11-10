@@ -1,4 +1,4 @@
-let matriz = [2,7,4,5];
+let matriz = [2,5,15,5,3,9,32,11,17,1];
 
 function soma(lista, resultado) {
     
@@ -7,4 +7,4 @@ function soma(lista, resultado) {
     console.log(lista[i], lista[i+1]);
 }
 
-soma(matriz,9);
+soma(matriz,18);
