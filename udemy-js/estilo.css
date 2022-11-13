@@ -1,0 +1,35 @@
+* {
+    width: 100%;
+    height: 10em;
+}
+
+header { 
+    background-color: aqua;
+}
+
+nav {
+    background-color: bisque;
+}
+
+main {
+    background-color: rgb(226, 223, 223);
+    height: auto;
+}
+
+footer {
+    background-color: darkolivegreen;
+}
+
+#caixa-amarela {
+    border: 5px solid yellow;
+    display: block;
+    width: 50%;
+    height: 5em;
+}
+
+#caixa-vermelha {
+    border: 5px solid red;
+    display: block;
+    width: 50%;
+    height: 5em;
+}
