@@ -22,6 +22,8 @@ let verificaNum = (celular) => {
     }
 }
 
-verificaNum(numCelular);
-console.log(typeof numCelular);
-console.log(numCelular[3]);
+//verificaNum(numCelular);
+//console.log(typeof numCelular);
+//console.log(numCelular[3]);
+
+console.log(Math.pow(32, 5));
